@@ -26,12 +26,6 @@ namespace WebApplication1.Controllers
 
             return View();
         }
-        public ActionResult Detail()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
         public ActionResult Categoryall()
         {
             ViewBag.Message = "Your contact page.";
@@ -45,6 +39,12 @@ namespace WebApplication1.Controllers
             return View();
         }
         public ActionResult ListingLarge()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        public ActionResult ShopingCart()
         {
             ViewBag.Message = "Your contact page.";
 
